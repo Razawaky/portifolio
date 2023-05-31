@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.banner {
+    background-image: url('/assets/walpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+}
+
+.perfil {
+    border-radius: 50%;
+    border: 4px solid white ;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .banner {
+        background-position: right;
+        height: 100vh;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {  }
