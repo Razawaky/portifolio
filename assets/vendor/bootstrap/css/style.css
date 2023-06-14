@@ -16,6 +16,19 @@
 .perfil {
     border-radius: 50%;
     border: 4px solid white ;
+    height: 85%;
+}
+
+.nome  { 
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+}
+
+
+.myname {
+    font-size: 4rem;
+    color: #fff;
 }
 
 
@@ -25,10 +38,27 @@
         background-position: right;
         height: 100vh;
     }
+
+    .perfil {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {  }
+@media (min-width: 577px) and (max-width: 1200px) { 
+    .banner {
+        background-position: right;
+        height: 80vh;
+    }
+    .perfil {
+        height: 85%;
+    }
+
+ }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {  }
