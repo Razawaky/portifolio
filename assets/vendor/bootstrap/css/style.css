@@ -65,3 +65,28 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1400px) {  }
+
+.icons {
+    display: flex;
+
+}
+
+.icons img {
+    width: 10vh;
+    padding: 1vh;
+    transition: all 0.3s;
+}
+
+.icons img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.ferramentas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 16vh;
+}
